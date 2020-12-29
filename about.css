@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'ELAND_Choice_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    font-family: 'ELAND_Nice_M';
+  background-color: #ffffff;
+}
+
+
+
+
+
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+@font-face {
+    font-family: 'ELAND_Choice_L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav-item {
+font-family: 'ELAND_Choice_B';
+	
+}
+.navbar-light .navbar-toggler {
+	border-color: #ffffff;
+		
+}
+.navbar-brand{
+	font-size:1.9rem;
+}
+
+.at-share-btn-elements {
+	margin-top :30px;
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+.section {
+	margin-top: 80px;
+	margin: 80px auto;
+	font-family: 'NanumSquare', sans-serif !important;
+	width: 60%
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+	font-family: 'ELAND_Nice_M';
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: center;
+	font-size: 1.45rem;
+	margin: 0 auto;
+	
+	
+}
+
+.subtitle {
+	margin-top: 25px;
+	font-family: 'NanumSquare', sans-serif !important;
+	line-height: 1.53;
+	text-align: justify;
+	text-align-last: center;
+	font-size: 1.1rem;
+	color: #35465d;
+}
+
+	
+	
+
+	@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+footer {
+		font-family: 'ELAND_Nice_M';
+	margin-top: 80px;
+	}
+
+	
+	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}

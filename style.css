@@ -1,0 +1,527 @@
+@font-face {
+    font-family: 'ELAND_Choice_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ELAND_Nice_M';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Nice_M.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    font-family: 'ELAND_Nice_M';
+  background-color: #ffffff;
+}
+
+.file-upload {
+  background-color: #ffffff;
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 20px;
+	
+}
+
+.file-upload-btn {
+  width: 100%;
+  margin: 0;
+  color: #fff;
+  background: #1FB264;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 4px solid #15824B;
+  transition: all .2s ease;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.file-upload-btn:hover {
+  background: #1AA059;
+  color: #ffffff;
+  transition: all .2s ease;
+  cursor: pointer;
+}
+
+.file-upload-btn:active {
+  border: 0;
+  transition: all .2s ease;
+}
+
+.file-upload-content {
+  display: none;
+  text-align: center;
+}
+
+.file-upload-input {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.image-upload-wrap {
+  margin-top: 20px;
+  border: 1.5px dashed #ffffff;
+  position: relative;
+	animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-name: bounce-2;
+        animation-timing-function: ease;
+    }
+    @keyframes bounce-2 {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+}
+
+
+
+.image-title-wrap {
+  padding: 0 15px 15px 15px;
+  color: #222;
+}
+
+.drag-text {
+  text-align: center;
+	
+}
+
+.drag-text h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #28363D;
+  padding: 40px 0;
+}
+
+.upload-image{
+	margin-top: 25px;
+	width:25%;
+}
+
+.upload-text{
+	font-size:1.1rem;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+.file-upload-image {
+  max-height: 250px;
+  max-width: 250px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+
+
+
+.bar-container{
+  height: 1.7rem;
+}
+.cezan-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.cezan-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.goh-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.goh-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.gogang-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.gogang-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.monet-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.monet-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.picasso-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.picasso-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.mond-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.mond-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.manet-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.manet-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.5rem;
+  border-radius: 5px;
+  background-color: #202733;
+}
+.percent-text {
+  font-size: 0.9rem;
+  color: #ffffff;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+.painting-label {
+    width: 20%;
+    text-align: left;
+    height: 1.5rem;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+.label-container {
+    width: 80%;
+    margin: 0 auto;
+	font-size: 0.8rem;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+
+
+
+
+
+
+
+
+
+
+.button-container-2 {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7vh;
+  overflow: hidden;
+  border: 1px solid #202733;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  border-radius: 8px;
+}
+.button-container-2 button {
+  width: 101%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: #202733;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+
+
+.button-container-2 button:hover {
+  -webkit-animation: ani 0.7s steps(29) forwards;
+  animation: ani 0.7s steps(29) forwards;
+}
+
+.mas {
+  position: absolute;
+  color: #000;
+  text-align: center;
+  width: 101%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  position: absolute;
+  font-size: 11px;
+  margin-top: 17px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+@-webkit-keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@keyframes ani {
+  from {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+  to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+}
+@-webkit-keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+@keyframes ani2 {
+  from {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+  }
+  to {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+a {
+  color: #00ff95;
+}
+///
+
+.remove-image {
+	  width: 101%;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 11px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  background: #202733;
+  -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
+  -webkit-mask-size: 3000% 100%;
+  mask-size: 3000% 100%;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  -webkit-animation: ani2 0.7s steps(29) forwards;
+  animation: ani2 0.7s steps(29) forwards;
+}
+}
+
+
+
+
+.animal-label {
+	font-size:13px;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+
+
+
+
+
+
+
+.result-message {
+font-size:1.8rem;
+margin-bottom:15px;
+	margin-top: 15px;
+font-family: 'InkLipquid';
+}
+
+.painting-explain {
+	font-size:1.4rem;
+	margin-bottom:40px;
+	margin top: 8px;
+font-family: 'InkLipquid';
+}
+
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+@font-face {
+    font-family: 'ELAND_Choice_L';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.nav-item {
+font-family: 'ELAND_Choice_B';
+	
+}
+.navbar-light .navbar-toggler {
+	border-color: #ffffff;
+		
+}
+.navbar-brand{
+	font-size:1.9rem;
+}
+
+.at-share-btn-elements {
+	margin-top :30px;
+}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+.nanumsquare {
+    font-family: 'NanumSquare', sans-serif !important;
+}
+.section {
+	margin-top: 80px;
+	font-family: 'NanumSquare', sans-serif !important;
+}
+
+@font-face {
+    font-family: 'InfinitySans-BoldA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-BoldA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+	 font-family: 'InfinitySans-BoldA1';
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: center;
+	color: #35465d;
+	font-size: 1.45rem;
+}
+
+.subtitle {
+	margin-top: 25px;
+	font-family: 'NanumSquare', sans-serif !important;
+	line-height: 1.53;
+	text-align: center;
+	font-size: 1.1rem;
+	color: #35465d;
+}
+
+	
+	
+
+	@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ad-banner {
+		width: 320px;
+			margin: 0 auto;
+	}	
+
+.ad-explain {
+	margin-top: -5px;
+	font-family: 'ELAND_Choice_B';
+	font-weight: 500;
+	line-height: 1.53;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.text-center {
+	margin-top: 5px;
+	font-family: 'InkLipquid';
+font-size: 1.2rem;	
+}
+footer {
+		font-family: 'ELAND_Nice_M';
+	}
+
+
+	
+	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	
+
+
+	
+	
+	
