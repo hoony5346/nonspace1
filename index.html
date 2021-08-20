@@ -16,7 +16,7 @@
 		<meta name="description" content="즐거운 미술 플랫폼, nonspace">
 		<meta name="subject" content="자신이 그린 그림으로 비슷한 화풍의 화가를 찾아보세요">
 		<meta name="keywords" content="인공지능 미술테스트, 논스페이스, nonspace, 미술심리, ai미술, ai그림, ai그림테스트, 반고흐, 마네, 모네">
-		<meta name="robots" content="논스페이스,인공지능 미술테스트, 논스페이스, nonspace, 미술심리, ai미술, ai그림, ai그림테스트, 반고흐, 마네, 모네">
+		<meta name="robots" content="논스페이스,인공지능 미술테스트, 논스페이스, nonspace, 미술심리, ai미술, ai그림, ai그림테스트">
 		<link rel="canonical" href="https://nonspace.co.kr/index.html">
 		<script data-ad-client="ca-pub-9454796910576403" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		
@@ -27,7 +27,7 @@
     <meta property="og:title" content="non.sapce"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="logo.png"/>
-    <meta property="og:description" content="AI 그림 테스트, 아트 집콕 프로젝트"/>
+    <meta property="og:description" content="AI 그림 테스트"/>
 		
     <link rel="shortcut icon" href="favicon.ico" type="image/x-igcon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -75,8 +75,8 @@
   </div>
 </nav>
 				<section class="section">
-					<h1 class="title">non.sapce 집콕 프로젝트 <br> AI 그림 테스트</h1>
-					<h2 class="subtitle">내 그림과 똑닮은 화가는 누구일까요? <br> 집에서 그림을 그리고 이곳에 업로드하여 찾아보세요.<br>화가의 그림과 비교해 당신의 미술심리를 진단합니다. <br> 7명의 화가가 당신을 기다립니다.</h2>
+					<h1 class="title">non.sapce <br> AI 그림 테스트</h1>
+					<h2 class="subtitle">내 그림과 똑닮은 화가는 누구일까요? <br> 그림을 그리고 이곳에 업로드하여 찾아보세요.<br>화가의 그림과 비교해 당신의 미술심리를 진단합니다. </h2>
 				</section>
 		
 				
@@ -128,6 +128,7 @@
                             <button type="button" onclick="removeUpload()" class="remove-image">다시 업로드하기
                                
                             </button></div>
+							
 				
                               
 							
@@ -225,34 +226,38 @@
 						var resulttitle, resultexplain;
 						switch(prediction[0].className) {
   case "cezan":
-    resulttitle="현대미술의 아버지, 폴 세잔" 
+    resulttitle="현대미술의 아버지" 
 	resultexplain="당신의 사물의 본질을 파악하는 것에 능합니다. 인물이라면 깊은 통찰이 있었을 것입니다. 당신의 색채에는 당신의 감정이 묻어납니다. 당신이 19세기에 살았다면 현대미술에 한 획을 그었을 것입니다."
     break;
   case "goh":
-    resulttitle="비운의 천재화가 <br> 반 고흐"
+    resulttitle="비운의 천재화가"
 	resultexplain="당신의 강렬한 터치에서 즉흥적인 모습이 보입니다. 화려한 색은 소용돌이치는 감정의 대비입니다. 그림을 그리는 행위에 집중하며, 당신의 의식을 따라가고 있습니다. 당신은 고통도 예술로 승화시킬 수 있는 사람입니다."
     break;
   case "gogang":
-    resulttitle="원시적 아름다움 <br> 고갱"
+    resulttitle="원시적 아름다움"
     resultexplain="당신의 그림은 매우 순수합니다. 도시생활에 지쳤나요? 원시적인 아름다움을 그려내고 있습니다. 사실적으로 묘사된 그림을 거부합니다. 당신의 감정을 강렬한 색채로 표현합니다. "
     break;
   case "monet":
-    resulttitle="빛의 화가 <br> 클로드 모네"
+    resulttitle="빛의 화가"
 	resultexplain="당신은 아주 빛을 잘쓰는 사람입니다. 당신의 그림은 매우 아름답습니다. 그림을 그릴 때, 확고한 철학이 있다면 절대 포기하지 않습니다. 도시보다는 자연에서 영감을 많이 얻습니다."
     break;
   case "picasso":
-   resulttitle="말이 필요없는 천재화가 <br> 피카소"
+   resulttitle="말이 필요없는 천재화가"
    resultexplain="당신은 다양한 시도를 하는 것을 좋아합니다. 그리고 무언가를 파악할 때 여러방면에서 관찰합니다. 사람들은 당신의 그림을 어려워합니다. 그래도 괜찮습니다. 21세기니까."
     break;	
   case "mond":
-   resulttitle="냉철한 추상주의자 <br> 몬드리안"
+   resulttitle="냉철한 추상주의자"
    resultexplain="당신은 구조와 질서를 중요시합니다. 자기통제가 뛰어난 사람입니다. 단순화하는 것을 매우 잘 합니다. 그림을 그릴 때, 사실과 똑같이 그리는 것을 극도로 싫어합니다. "
     break;
 						
   case "manet":
-   resulttitle="인상주의의 아버지 <br> 에두아르 마네"
+   resulttitle="추상과 구상 사이"
    resultexplain="세련된 도시적 감각을 가지고 있습니다. 구도나 입체감이 매우 파격적이나 사실적인 묘사도 놓치지 않습니다. 추상과 구상 사이에서 고민하고 있습니다. 그림에 보이는 것을 최대한 많이 담아내려고 합니다."
+								
+								
     break;
+								
+								
   default:
    resulttitle="알수없음"}
 	
@@ -271,7 +276,7 @@
                         }
                    
 
-						
+                            		
 						
 						            for (let i = 0; i < maxPredictions; i++) {
                 if (prediction[i].probability.toFixed(2) > 0.1) {
@@ -284,25 +289,25 @@
                 var labelTitle;
                 switch (prediction[i].className) {
                     case "cezan":
-                        labelTitle = "폴 세잔"
+                        labelTitle = "본질에 대한 접근"
                         break;
                     case "goh":
-                        labelTitle = "빈센트 반 고흐"
+                        labelTitle = "감각적 인내"
                         break;
                     case "gogang":
-                        labelTitle = "폴 고갱"
+                        labelTitle = "순수 그 이상"
                         break;
                     case "monet":
-                        labelTitle = "클로드 모네"
+                        labelTitle = "확고한 철학"
                         break;
                     case "picasso":
-                        labelTitle = "파블로 피카소"
+                        labelTitle = "다양한 시도"
                         break;
                     case "mond":
-                        labelTitle = "몬드리안"
+                        labelTitle = "냉철한 감정"
                         break;
                     case "manet":
-                        labelTitle = "에두아르 마네"
+                        labelTitle = "사실적 묘사"
                         break;
                     default:
                         labelTitle = "알수없음"
@@ -316,7 +321,9 @@
 						
 					}
                 </script>
-	    	
+				
+							
+				
 <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
 <script type="text/javascript">
 if(!wcs_add) var wcs_add = {};
@@ -329,23 +336,14 @@ wcs_do();
 <footer class="footer pt-5 container d-flex justify-content-center">
         <div>
 		
-            <p>Instagrm @non.space_official<br>presented by MIN KYEONGHUN </p>
+			
+
+			
+            <p>한국문화예술위원회 DA-ART 미술작가 500인 데이터로 만들어졌습니다. </p>
         </div>
     </footer>
-	<div class="ad-explain">
-		 <p></p>
-		<div/>
-	<div class="ad-banner">
-		<ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-zUxQ7umSWR36X5Uv" 
- data-ad-width   = "320" 
- data-ad-height  = "100"></ins> 
 	
-		<script>
-	new PartnersCoupang.G({"id":399996,"template":"carousel","trackingCode":"AF5540236","width":"320","height":"100"});
-</script>
-	<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-		<script src="https://ads-partners.coupang.com/g.js"></script></div>
+	
 	
         </html>
    
